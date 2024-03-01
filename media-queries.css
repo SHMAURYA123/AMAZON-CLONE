@@ -1,0 +1,105 @@
+@media (max-width:991px) {
+    .nav-toggle{
+        display: block;
+        margin-right: 10px;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    .nav-search{
+        display: flex;
+        background-color: pink;
+        width: 200;
+        height: 40px;
+        border-radius: 2px;
+        justify-content: space-evenly;
+    }
+    .nav-search:hover{
+        border: 1px solid orange;
+    }
+    .search-select{
+        background-color:#f3f3f3;
+        width:50px;
+        text-align: center;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        border: none;
+    }
+    .search-input{
+        width: 100%;
+        font-size: 0.5rem;
+        border: none;
+    }
+    .search-icon{
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        background-color: #febd68;
+        border-bottom-right-radius: 2px;
+        border-top-right-radius: 2px;
+        color: #0F1111;
+    }
+     .nav-cart{
+       display: none;
+     }
+
+     .nav-signIn{
+       display: none;
+    }
+    .nav-sec{
+        display: none;
+    }
+    .nav-return{
+        display: none;
+        
+    }
+    .nav-cart i{
+        display: none;
+    }
+    .nav-cart{
+        display: none;
+    }
+
+    .hero-section{
+       height:400px;
+    }
+
+    .shop-section{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+       flex-wrap: wrap;
+        
+      }
+      
+      .box{
+          /* border: 2px solid black; */
+          margin-top: 15px;
+          height: 400px;
+          width:50%;
+          background-color: white;;
+          padding: 10px 0px 10px;
+      }
+      
+      h2{
+          font-size: 0.8rem;
+      }
+      
+      .box-content p{
+          color: #007185;
+         margin-top: 10px;
+      }
+      .box-img{
+          height:300px;
+          
+          /* background-image: url('box 1.jpg'); */
+           background-size: cover; 
+          
+      }
+      .box-content{
+           margin-left: 0.5rem;
+           margin-right: 0.5rem;
+      }
+}

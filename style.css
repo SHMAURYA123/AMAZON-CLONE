@@ -99,6 +99,10 @@ background-image: url("Amazon-Logo.png");
     font-weight: 700;
 }
 
+.nav-toggle{
+    display:none;
+}
+
 
 .nav-panel{
     display: flex;
@@ -138,6 +142,8 @@ background-image: url("Amazon-Logo.png");
   display: flex;
   justify-content: space-evenly;
   background-color: #e2e7e6;
+  overflow:hidden;
+  
 }
 
 .box{
@@ -214,7 +220,7 @@ ul {
     color: white;
     height: 100px;
     padding-top: 20px ;
-
+    
 }
 .conditions a{
     margin-left: 10px;
